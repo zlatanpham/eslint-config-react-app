@@ -62,6 +62,15 @@ module.exports = {
         ],
         'no-await-in-loop': 'error',
         'react/jsx-boolean-value': 'error',
+        'jsx-a11y/anchor-is-valid': [
+          'error',
+          {
+            // NextJS favor
+            components: ['Link'],
+            specialLink: ['hrefLeft', 'hrefRight'],
+            aspects: ['invalidHref', 'preferButton'],
+          },
+        ],
       },
     },
   ],
