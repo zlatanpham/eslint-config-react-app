@@ -1,6 +1,6 @@
 {
   "name": "@zlph/eslint-config-react-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "zlatan <zlatan.pham@gmail.com>",
   "repository": {
