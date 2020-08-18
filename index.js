@@ -49,17 +49,6 @@ module.exports = {
         'max-depth': ['error', 4],
         'max-params': ['warn', 3],
         'no-duplicate-imports': 'error',
-        'react/jsx-sort-props': [
-          'error',
-          {
-            ignoreCase: true,
-            callbacksLast: false,
-            shorthandFirst: false,
-            shorthandLast: false,
-            noSortAlphabetically: false,
-            reservedFirst: true,
-          },
-        ],
         'no-await-in-loop': 'error',
         'react/jsx-boolean-value': 'error',
         'jsx-a11y/anchor-is-valid': [
