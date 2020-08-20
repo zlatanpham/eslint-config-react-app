@@ -51,6 +51,7 @@ module.exports = {
         'no-duplicate-imports': 'error',
         'no-await-in-loop': 'error',
         'react/jsx-boolean-value': 'error',
+        'react/jsx-key', 'error',
         'jsx-a11y/anchor-is-valid': [
           'error',
           {
